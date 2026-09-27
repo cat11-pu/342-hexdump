@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "width": 4,
+  "empty_error_code": "E_EMPTY",
+  "byte_error_code": "E_BAD_BYTE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "rows": [], "buffer": "", "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "feed", "text": "abcdefgh" },
+    { "id": 2, "kind": "dump" },
+    { "id": 3, "kind": "feed", "text": "ijk" },
+    { "id": 4, "kind": "dump" }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "hexdump",
+  "private": true,
+  "type": "module"
+}
